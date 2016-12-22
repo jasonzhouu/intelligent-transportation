@@ -174,6 +174,7 @@
 
                           // and `classList` and `dataset` APIs
                            ( body.classList ) &&
+<<<<<<< HEAD
                            ( body.dataset )
                           //  &&
                           //
@@ -182,6 +183,15 @@
                           // // good enough to run impress.js properly, sorry...
                           //  ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
 
+=======
+                           ( body.dataset ) &&
+                           
+                          // but some mobile devices need to be blacklisted,
+                          // because their CSS 3D support or hardware is not
+                          // good enough to run impress.js properly, sorry...
+//                            ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
+    
+>>>>>>> origin/gh-pages
     if (!impressSupported) {
         // we can't be sure that `classList` is supported
         body.className += " impress-not-supported ";
