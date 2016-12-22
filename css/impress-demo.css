@@ -41,9 +41,11 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+/*
 ol, ul {
     list-style: none;
 }
+*/
 blockquote, q {
     quotes: none;
 }
@@ -74,7 +76,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-b, strong { font-weight: bold }
+b, strong { font-weight: bold; font-family: '微软雅黑', 'Microsoft YaHei', '黑体' }
 i, em { font-style: italic}
 
 a {
