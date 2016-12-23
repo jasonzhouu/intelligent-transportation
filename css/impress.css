@@ -74,3 +74,11 @@ tr:hover {
     top: 420px;
     left: 700px;
 }
+
+.addNew p {
+    font-size: 25px;
+}
+
+.addNew h1 {
+    font-size: 40px;
+}
