@@ -25,6 +25,10 @@ tr.even {
     background-color:#efefef;
 }
 
+tr:hover {
+    background-color: #DEDEDE;
+}
+
 #stuff th {
     width: 150px;
     font-size: 50px;
